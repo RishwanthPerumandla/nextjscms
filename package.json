@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/image-url": "^1.0.1",
     "next": "11.1.2",
+    "next-sanity-image": "^3.1.5",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
